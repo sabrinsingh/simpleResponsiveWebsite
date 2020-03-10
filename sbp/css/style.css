@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p
+{
+    font-size: 14px;
+}
+
+/*header*/
+.header{
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    -moz-background-origin: cover;
+    -o-background-origin: cover;
+    -webkit-background-origin: cover; 
+    }
+
+.header-overlay{
+    background-color: rgba(31,31,31,0.70);
+}
+
+.logo{
+    padding-bottom:50px;
+}
+
+.header-text h1{
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.header-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.header-btns{
+    margin:auto;
+     }
+
+.header-btns .btn{
+    color:antiquewhite; 
+}
+
+.header-btns .fa:hover {
+    background-color: transparent;
+    text-transform: uppercase;
+    color:antiquewhite;
+    border-color: antiquewhite;
+}
+
+
+.fa-download:hover {
+    background-color: transparent;
+    text-transform: uppercase;
+    color:antiquewhite;
+    border-color: antiquewhite;
+}
+
+.header-iphone-img img{
+    width:100%;
+}
